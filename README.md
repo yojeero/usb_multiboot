@@ -70,13 +70,6 @@ map --mem /PE/macrium.iso (hd32)
 map --hook
 chainloader (hd32)/bootmgr
 
-title Victoria
-map /PE/victoria.iso (hd32)  
-map (hd0) (hd1)  
-map (hd1) (hd0)  
-map --hook  
-chainloader (hd32)
-
 title 
 clear
 
