@@ -33,6 +33,20 @@ map --hook
 root (0xff)
 chainloader (0xff)
 
+title Arch
+partnew (%@root:~1,3%,3) 0x00 /LUX/arch.iso
+map /LUX/arch.iso (0xff)
+map --hook
+root (0xff)
+chainloader (0xff)
+
+title Nix
+partnew (%@root:~1,3%,3) 0x00 /LUX/nix.iso
+map /LUX/nix.iso (0xff)
+map --hook
+root (0xff)
+chainloader (0xff)
+
 title 
 clear
 
@@ -56,36 +70,12 @@ map --mem /PE/macrium.iso (hd32)
 map --hook
 chainloader (hd32)/bootmgr
 
-title Ease Us
-map --mem /PE/easeus.iso (hd32)
-map --hook
-chainloader (hd32)/bootmgr
-
-title Ease Us Partition
-map --mem /PE/easeus_p.iso (hd32)
-map --hook
-chainloader (hd32)/bootmgr
-
-title Acronis
-map /PE/acronis.iso (0xff)
-map --mem /PE/acronis.iso (0xff)
-map --hook
-chainloader (0xff)
-
 title Victoria
 map /PE/victoria.iso (hd32)  
 map (hd0) (hd1)  
 map (hd1) (hd0)  
 map --hook  
 chainloader (hd32)
-
-title Acronis
-map --mem /PE/firadisk.IMA (fd0)
-map --mem /PE/acronis.iso (0xFF)
-map (hd0) (hd1)
-map (hd1) (hd0)
-map --hook
-chainloader (0xFF)
 
 title 
 clear
