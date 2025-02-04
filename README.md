@@ -70,6 +70,11 @@ map --mem /PE/macrium.iso (hd32)
 map --hook
 chainloader (hd32)/bootmgr
 
+title Drive SnapShot
+map --mem /PE/drive_shot.iso (hd32)
+map --hook
+chainloader (hd32)/bootmgr
+
 title 
 clear
 
