@@ -56,10 +56,10 @@ Multiboot USB root/
     ├── GRLDR    
     ├── liveusbl  
     ├── winpeshl.ini                     
-    └── menu.lst                              
+    └── menu.lst             
 
-
-  ### <span style="color: #1589F0">The Multiboot USB-flash like this will work and in BIOS Legacy and in UEFI.</span>
+  > [!IMPORTANT]
+  > ### The Multiboot USB-flash like this will work and in BIOS Legacy and in UEFI.
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
