@@ -41,19 +41,22 @@ Folders "ISO, LUX, PE, Soft" make for usability - you can copy all ISO-images in
 
 ### The structure of the Multiboot USB-flash drive.
 
-Multiboot USB root/                             
+Multiboot USB root/ 
+
     ├── GFX/                                    
-      └── mac.gz                                
-      └── unifont.hex.gz                        
+          └── mac.gz                                
+          └── unifont.hex.gz  
+          
     ├── ISO/                                    
     ├── LUX/                                   
     ├── PE/                                    
-    ├── SOft/                                  
+    ├── Soft/  
+    
     ├── AutoUnattend.xml  
     ├── GRLDR    
     ├── liveusbl  
     ├── winpeshl.ini                     
-    └── menu.lst                                
+    └── menu.lst                              
 
 
   ### <span style="color: #1589F0">The Multiboot USB-flash like this will work and in BIOS Legacy and in UEFI.</span>
