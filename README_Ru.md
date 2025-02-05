@@ -42,18 +42,20 @@ Bootice (выбрать флешку) > Parts manage > Re-Partitioning > USB-HDD
 ### Структура мультизагрузочной USB-флешки.
 
 Multiboot USB root/                             
-    ├── GFX/                                    # Folder with Skin
-      └── mac.gz                                # File boot Skin
-      └── unifont.hex.gz                        # File font
-    ├── ISO/                                    # Folder Windows ISO
-    ├── LUX/                                    # Folder Linux ISO
-    ├── PE/                                     # Folder WinPE LiveCD
-    ├── SOft/                                   # Folder with any soft and files
+    ├── GFX/                                   
+         └── mac.gz                               
+         └── unifont.hex.gz      
+         
+    ├── ISO/                                    
+    ├── LUX/                                    
+    ├── PE/                                     
+    ├── Soft/ 
+    
     ├── AutoUnattend.xml  
     ├── GRLDR    
     ├── liveusbl  
     ├── winpeshl.ini                     
-    └── menu.lst                                # Main boot menu file for edit
+    └── menu.lst                               
 
 
     ### <span style="color: #1589F0">Мультизагрузочная USB-флешка, собранная по этой схеме, будет работать и в BIOS Legacy и в UEFI.</span>
