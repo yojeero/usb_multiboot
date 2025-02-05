@@ -55,10 +55,10 @@ Multiboot USB root/
     ├── GRLDR    
     ├── liveusbl  
     ├── winpeshl.ini                     
-    └── menu.lst                               
+    └── menu.lst        
 
-
-    ### <span style="color: #1589F0">Мультизагрузочная USB-флешка, собранная по этой схеме, будет работать и в BIOS Legacy и в UEFI.</span>
+  > [!IMPORTANT]
+  > ### Мультизагрузочная USB-флешка, собранная по этой схеме, будет работать и в BIOS Legacy и в UEFI.
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
