@@ -1,5 +1,7 @@
 <img width="830px" src="preview/pre_sony.png">
 
+## Create USB-flash multiboot
+
 ### General information on partitions.
 
 A flash drive formatted as a hard drive and the hard drive itself with a classic MBR can have up to 4 partitions. The partitions are the main ones - such an OS (because they are loading), and an expanded partition. In the expanded, logical discs are created (up to 128 partitions), they cannot be loading for Windows, Linux has exceptions.
@@ -114,3 +116,7 @@ Enjoy to the new design!
 - sony.gz
 
 #### Skins preview look at the folder > preview
+
+#### View on [GitHub](https://github.com/yojeero/usb_multiboot)
+
+#### Читать [по русски](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)
