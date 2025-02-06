@@ -63,8 +63,6 @@ Multiboot USB root/
   > [!IMPORTANT]
   > ### The Multiboot USB-flash like this will work and in BIOS Legacy and in UEFI.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   
-
 ### Prebuild.
 
 - FiraDisk_integrator - FiraDisk integration utility into the ISO-images of Windows;
@@ -96,8 +94,6 @@ Select > analyze and look - need or not the optimization of ISO-images on a USB 
 If required >
 
 Launch WinContig > go to the drive list > select the drive where ISO images are stored > select the Properties > Service > check and select > optimize.
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 ### Ready to work skins in folder > make_skins > skins
 
