@@ -63,7 +63,7 @@ Multiboot USB root/
   > [!IMPORTANT]
   > ### The Multiboot USB-flash like this will work and in BIOS Legacy and in UEFI.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   
 
  ### Prebuild.
 
