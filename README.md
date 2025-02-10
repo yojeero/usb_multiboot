@@ -1,6 +1,6 @@
 <img width="830px" src="preview/pre_sony.png">
 
-## Create USB-flash multiboot
+### Create USB-flash multiboot
 
 ### General information on partitions.
 
