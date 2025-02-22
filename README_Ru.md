@@ -1,4 +1,4 @@
-<img width="830px" src="preview/pre_sony.png">
+<img width="830px" src="preview/usb.png">
 
 ### Общая информация по разделам.
 
