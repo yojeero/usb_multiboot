@@ -1,6 +1,6 @@
 <img width="830px" src="preview/usb.png">
 
-### Create USB-flash multiboot
+### Create USB-flash multiboot.
 
 ### General information on partitions.
 
@@ -95,7 +95,7 @@ If required >
 
 Launch WinContig > go to the drive list > select the drive where ISO images are stored > select the Properties > Service > check and select > optimize.
 
-### Ready to work skins in folder > make_skins > skins
+### Ready to work skins in folder > make_skins > skins.
 
 To use another skin, take any skin> for example > mac.gz.
 Copy skin to USB-flash in folder GFX.
@@ -111,8 +111,8 @@ Enjoy to the new design!
 - modus.gz
 - sony.gz
 
-#### Skins preview look at the folder > preview
+#### Skins preview look at the folder > preview.
 
-#### View on [GitHub](https://github.com/yojeero/usb_multiboot)
+#### Look and download at [GitHub](https://github.com/yojeero/usb_multiboot).
 
-#### Читать [по русски](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)
+#### Читать [по русски](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md).
