@@ -1,4 +1,4 @@
-<img width="830px" src="preview/usb.png">
+<img src="preview/usb.png">
 
 ### Общая информация по разделам.
 
