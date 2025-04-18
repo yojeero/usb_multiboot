@@ -12,9 +12,9 @@ map --hook
 root (0xff)
 chainloader (0xff)
 
-title Fedora
-partnew (%@root:~1,3%,3) 0x00 /LUX/fedora.iso
-map /LUX/fedora.iso (0xff)
+title Cachy
+partnew (%@root:~1,3%,3) 0x00 /LUX/cachy.iso
+map /LUX/cachy.iso (0xff)
 map --hook
 root (0xff)
 chainloader (0xff)
@@ -53,11 +53,6 @@ chainloader (hd32)/bootmgr
 
 title Macrium
 map --mem /PE/macrium.iso (hd32)
-map --hook
-chainloader (hd32)/bootmgr
-
-title vba32 antivirus
-map --mem /PE/vba32.iso (hd32)
 map --hook
 chainloader (hd32)/bootmgr
 
