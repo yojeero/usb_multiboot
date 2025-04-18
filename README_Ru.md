@@ -103,10 +103,7 @@ Multiboot USB root/
 
 #### Список скинов:
 
-- color.gz
-- cube.gz
 - mac.gz
-- modus.gz
 - sony.gz
 
 #### Превью скинов лежат в папке > preview

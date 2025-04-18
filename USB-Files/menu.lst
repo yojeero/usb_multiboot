@@ -5,23 +5,16 @@ gfxmenu /GFX/mac.gz
 font /GFX/unifont.hex.gz
 graphicsmode -1 100:1000 100:10000 24:32
 
-title Archcraft
-partnew (%@root:~1,3%,3) 0x00 /LUX/archcraft.iso
-map /LUX/archcraft.iso (0xff)
+title DrWeb
+partnew (%@root:~1,3%,3) 0x00 /LUX/drweb.iso
+map /LUX/drweb.iso (0xff)
 map --hook
 root (0xff)
 chainloader (0xff)
 
-title Fedora Sway
+title Fedora
 partnew (%@root:~1,3%,3) 0x00 /LUX/fedora.iso
 map /LUX/fedora.iso (0xff)
-map --hook
-root (0xff)
-chainloader (0xff)
-
-title Cbpp
-partnew (%@root:~1,3%,3) 0x00 /LUX/cbpp.iso
-map /LUX/cbpp.iso (0xff)
 map --hook
 root (0xff)
 chainloader (0xff)
@@ -63,12 +56,10 @@ map --mem /PE/macrium.iso (hd32)
 map --hook
 chainloader (hd32)/bootmgr
 
-title DrWeb
-partnew (%@root:~1,3%,3) 0x00 /PE/drweb.iso
-map /PE/drweb.iso (0xff)
+title vba32 antivirus
+map --mem /PE/vba32.iso (hd32)
 map --hook
-root (0xff)
-chainloader (0xff)
+chainloader (hd32)/bootmgr
 
 title 
 clear

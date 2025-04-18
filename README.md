@@ -105,10 +105,7 @@ Enjoy to the new design!
 
 #### Skins list.
 
-- color.gz
-- cube.gz
 - mac.gz
-- modus.gz
 - sony.gz
 
 #### Skins preview look at the folder > preview.
