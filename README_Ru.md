@@ -103,12 +103,11 @@ Multiboot USB root/
 
 #### Список скинов:
 
-- mac.gz
-- sony.gz
+- city.gz
+- art.gz
+- moda.gz
+- yellow.gz
 
 #### Превью скинов лежат в папке > preview
 
 #### View on [GitHub](https://github.com/yojeero/usb_multiboot)
-
-
-

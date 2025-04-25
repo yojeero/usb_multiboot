@@ -105,8 +105,10 @@ Enjoy to the new design!
 
 #### Skins list.
 
-- mac.gz
-- sony.gz
+- city.gz
+- art.gz
+- moda.gz
+- yellow.gz
 
 #### Skins preview look at the folder > preview.
 
