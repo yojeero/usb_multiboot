@@ -10,6 +10,14 @@
 
 #### Чтоб получить флешку как (hd0,0) нужно отформатировать ее одним разделом.
 
+<img src="preview/pre_yellow.png">
+
+```
+yellow.gz
+``` 
+
+### Начнем собирать USB-flash.
+
 ### Форматируем флешку под мультизагрузочную.
 
 Bootice (выбрать флешку) > Parts manage > Re-Partitioning > USB-HDD mode (Single Partition) > File System FAT32/NTFS (выбрать на свое усмотрение, единственно что FАТ32 не поддерживает файлы весом 4Гб или более) - поэтому выбираем NTFS > Start LBA 2048 > ОК > Ок.
@@ -101,13 +109,23 @@ Multiboot USB root/
 в строке > gfxmenu /GFX/sony.gz и сохраняем изменения.
 Радуемся новому оформлению!
 
-#### Список скинов:
+#### Cкины.
 
-- city.gz
-- art.gz
-- moda.gz
-- yellow.gz
+<img src="preview/pre_city.png">
 
-#### Превью скинов лежат в папке > preview
+```
+city.gz
+```   
+<img src="preview/pre_art.png">
+
+```
+art.gz
+```
+
+<img src="preview/pre_moda.png">
+
+```
+moda.gz
+```
 
 #### View on [GitHub](https://github.com/yojeero/usb_multiboot)

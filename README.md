@@ -12,6 +12,14 @@ A flash drive formatted as a hard drive and the hard drive itself with a classic
 
 #### To get a USB-flash as (HD0.0), format it with one partition.
 
+<img src="preview/pre_yellow.png"> 
+
+```
+yellow.gz
+```
+
+### Start made USB-flash.
+
 ### Format a USB-flash for multiboot.
 
 Bootice (select usb flash drive) > Parts manage > Re-Partitioning > USB-HDD mode (Single Partition) > File System FAT32/NTFS (FAT32 does not support files more than 4GB) - so we select NTFS > Start LBA 2048 > ОК > Ок.
@@ -103,14 +111,24 @@ Open in notepad "menu.lst" file.
 Change the name of the installed skin "sony.gz" to new "mac.gz" in stroke > gfxmenu /GFX/sony.gz and save them.
 Enjoy to the new design!
 
-#### Skins list.
+#### Skins.
 
-- city.gz
-- art.gz
-- moda.gz
-- yellow.gz
+<img src="preview/pre_city.png">
 
-#### Skins preview look at the folder > preview.
+```
+city.gz
+```   
+<img src="preview/pre_art.png">
+
+```
+art.gz
+```
+
+<img src="preview/pre_moda.png">
+
+```
+moda.gz
+```
 
 #### Look and download at [GitHub](https://github.com/yojeero/usb_multiboot).
 

@@ -68,7 +68,7 @@ map --rehook
 write (9) [FiraDisk]\nStartOptions=cdrom,vmem=find:/ISO/w10.iso;\n\0
 chainloader (0xff)/bootmgr
 
-title install win 11 24H2
+title install win 11
 map --mem (md)+4 (9)
 map /ISO/w11_24H2.iso (0xff)
 map (hd0) (hd1)
