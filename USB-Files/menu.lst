@@ -19,16 +19,16 @@ map --hook
 root (0xff)
 chainloader (0xff)
 
-title Lmde
-partnew (%@root:~1,3%,3) 0x00 /LUX/lmde.iso
-map /LUX/lmde.iso (0xff)
+title Debian
+partnew (%@root:~1,3%,3) 0x00 /LUX/debian.iso
+map /LUX/debian.iso (0xff)
 map --hook
 root (0xff)
 chainloader (0xff)
 
-title Finnix
-partnew (%@root:~1,3%,3) 0x00 /LUX/finnix.iso
-map /LUX/finnix.iso (0xff)
+title Ultramarine
+partnew (%@root:~1,3%,3) 0x00 /LUX/ultramarine.iso
+map /LUX/ultramarine.iso (0xff)
 map --hook
 root (0xff)
 chainloader (0xff)
