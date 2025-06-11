@@ -2,7 +2,7 @@
 
 ### Create USB-flash multiboot.
 
-### To get a USB-flash as (HD0.0), format it with one partition.
+### USB-flash format it with one partition.
 
 <img src="preview/pre_yellow.png"> 
 
