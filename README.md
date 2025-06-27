@@ -2,15 +2,7 @@
 
 ### Create USB-flash multiboot.
 
-### General information on partitions.
-
-A flash drive formatted as a hard drive and the hard drive itself with a classic MBR can have up to 4 partitions. The partitions are the main ones - such an OS (because they are loading), and an expanded partition. In the expanded, logical discs are created (up to 128 partitions), they cannot be loading for Windows, Linux has exceptions.
-
-- (hd0,0) The first main partition. 
-- (hd0,3) The fourth main partition where the image will be mounted. 
-- (hd0,4) and older logical discs.
-
-#### To get a USB-flash as (HD0.0), format it with one partition.
+### USB-flash format it with one partition.
 
 <img src="preview/pre_yellow.png"> 
 
