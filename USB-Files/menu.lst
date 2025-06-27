@@ -5,9 +5,9 @@ gfxmenu /GFX/yellow.gz
 font /GFX/unifont.hex.gz
 graphicsmode -1 100:1000 100:10000 24:32
 
-title Arch
-partnew (%@root:~1,3%,3) 0x00 /LUX/arch.iso
-map /LUX/arch.iso (0xff)
+title Salix
+partnew (%@root:~1,3%,3) 0x00 /LUX/salix.iso
+map /LUX/salix.iso (0xff)
 map --hook
 root (0xff)
 chainloader (0xff)
@@ -19,9 +19,16 @@ map --hook
 root (0xff)
 chainloader (0xff)
 
-title Salix
-partnew (%@root:~1,3%,3) 0x00 /LUX/salix.iso
-map /LUX/salix.iso (0xff)
+title Gentoo
+partnew (%@root:~1,3%,3) 0x00 /LUX/gentoo.iso
+map /LUX/gentoo.iso (0xff)
+map --hook
+root (0xff)
+chainloader (0xff)
+
+title Arch
+partnew (%@root:~1,3%,3) 0x00 /LUX/arch.iso
+map /LUX/arch.iso (0xff)
 map --hook
 root (0xff)
 chainloader (0xff)
