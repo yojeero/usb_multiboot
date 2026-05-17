@@ -15,7 +15,7 @@ Multiboot USB Flash Drive
 </p>   
 
 <p align="center">
-<img src="preview/pre_yellow.png"  width="500">  
+<img src="preview/pre_yellow.png"  width="600">  
 </p>   
 
 ## Быстрый старт
@@ -229,7 +229,7 @@ WinContig → Анализировать
 
 Исходники, конфиги и темы оформления:   
 
-[yojeero/usb_multiboot](https://github.com/yojeero/usb_multiboot) / [на русском](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)   
+[yojeero/usb_multiboot](https://github.com/yojeero/usb_multiboot) / [описание на русском](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)   
 
 <p align="center">
 <img alt="License" src="https://img.shields.io/github/license/yojeero/usb_multiboot?style=for-the-badge">

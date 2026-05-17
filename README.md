@@ -15,7 +15,7 @@ Universal multiboot USB flash drive with support for Windows, Linux, WinPE and U
 </p>   
 
 <p align="center">
-<img src="preview/pre_yellow.png" width="500">  
+<img src="preview/pre_yellow.png" width="415">  
 </p>   
 
 ## Quick start
@@ -229,7 +229,7 @@ Select the skin file → for example → mac.gz
 
 Source files, configs, and themes:   
 
-[yojeero/usb_multiboot](https://github.com/yojeero/usb_multiboot) /[in Russian](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)   
+[yojeero/usb_multiboot](https://github.com/yojeero/usb_multiboot) / [описание на русском](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)   
 
 <p align="center">
 <img alt="License" src="https://img.shields.io/github/license/yojeero/usb_multiboot?style=for-the-badge">
