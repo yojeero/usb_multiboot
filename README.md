@@ -1,127 +1,236 @@
-<img src="preview/usb.png">
+<h1 align="center">   
 
-### Create USB-flash multiboot.
+Multiboot USB Flash Drive   
 
-### USB-flash format it with one partition.
+<sub>Creating a multiboot USB flash drive</sub>
 
-<img src="preview/pre_yellow.png"> 
+</h1>   
 
-```
-yellow.gz
-```
+<p align="center">
+Universal multiboot USB flash drive with support for Windows, Linux, WinPE and UEFI/Legacy BIOS.
+</p>   
 
-### Start made USB-flash.
+<p align="center">
+<img alt="" src="https://img.shields.io/badge/LiveCD-1793D1?logo=LiveCD&logoColor=fff&style=for-the-badge" height="20"/><img alt="" src="https://img.shields.io/badge/USB-D70A53?style=for-the-badge&logo=usb&logoColor=white" height="20"/><img alt="" src="https://img.shields.io/badge/multiboot-%231357BD?style=for-the-badge&logo=multiboot&logoColor=white" height="20"/><img alt="" src="https://img.shields.io/badge/skins-green?style=for-the-badge&logo=skins&logoColor=white" height="20"/>
+</p>   
 
-### Format a USB-flash for multiboot.
+<p align="center">
+<img src="preview/pre_yellow.png" width="500">  
+</p>   
 
-Bootice (select usb flash drive) > Parts manage > Re-Partitioning > USB-HDD mode (Single Partition) > File System FAT32/NTFS (FAT32 does not support files more than 4GB) - so we select NTFS > Start LBA 2048 > ОК > Ок.
+## Quick start
 
-### How to make a flash drive bootable.
-
-1) Bootice (select usb flash drive) > Parts manage > Activate (click, if active, if not, leave it as it is).
-2) Bootice > Process MBR > Windows NT 5.x/6.x > Install > Windows NT 6.x > OK.
-3) Bootice > Process PBR > Grub4Dos > Install > Version 0.4.6а > ОК > ОК.
-
-### For USB-HDD.
-
-Create the base partition or use the existing one, make it active and install it MBR, PBR. So that there are no problems with some bios, the section should be up to 128 GB and is at the beginning of the disk.
-
-### Create a Multiboot USB-flash.
- 
-- Format the USB-flash in Bootice > Parts Manage > Repartitioning (in FAT32 - will work longer and faster, in NTFS - to support files more than 4GB).
-- Using the BOOTICE program, install the bootloader, as prescribed above in the item - **How to make a flash drive bootable.**.
-- The contents of the "USB-Files" folder are copied to the USB-flash drive.
-- Integrate the FiraDisk driver into the ISO-image of Windows and copy it on the USB-flash in the ISO folder (you can rename folder as you like) and rename the ISO-image as you want.
-- If the "WinContig" program after copying images on the USB-flash shows after analysis that defragmentation is needed - will defragment ISO-images on the USB-flash.
-- Edit the shell menu items > menu.lst to the ISO links are correct and the names of the ISO-images is correct.
-- Copy any Linux distro to the LUX folder (you can rename folder as you like).
-- Copy any Winpe LiveCD to the PE folder (you can rename folder as you like).
-
-```
-Folders "ISO, LUX, PE, Soft" make for usability - you can copy all ISO-images in the one folder.
-```
-
-### The structure of the Multiboot USB-flash drive.
-
-Multiboot USB root/ 
-
-    ├── GFX/                                    
-          └── mac.gz                                
-          └── unifont.hex.gz  
-          
-    ├── ISO/                                    
-    ├── LUX/                                   
-    ├── PE/                                    
-    ├── Soft/  
-    
-    ├── AutoUnattend.xml  
-    ├── GRLDR    
-    ├── liveusbl  
-    ├── winpeshl.ini                     
-    └── menu.lst             
-
-  > [!IMPORTANT]
-  > ### The Multiboot USB-flash like this will work and in BIOS Legacy and in UEFI.
-
-### Prebuild.
-
-- FiraDisk_integrator - FiraDisk integration utility into the ISO-images of Windows;
-- WinContig - defragmentation utility on a flash drive.
-- MobaLive USB.exe - testing ready-made USB-flash under Windows.
-
-### ISO-images Windows.
-
-In order for the Windows ISO-image to start installing from this flash drive, it is necessary to integrate the FiraDisk driver into an ISO-image. 
-To do this, the script is used > FiraDisk_integrator.
-This script integrates FiraDisk driver into the Windows installation image, which allows the Windows installation from the ISO-image using GRUB4DOS.
-
-- To integrate FiraDisk driver into the Windows, create a folder in the root directory of your hard drive.The name of the folder should be on the Latin without spaces and contain no more than 8 characters.The hard drive should have enough free space to create a copy of the Windows image.
-- Create a folder, for example, with the name “Firadisk” and copy the Windows ISO-image inside. You can copy several Windows images, different editions and so on. It all depends on the size of your USB-flash.
-- Copy the FiraDisk_integrator script into the same folder.
-- Launch the FiraDisk_integrator script on behalf of the administrator. The script in turn processes all ISO-images and creates its ISO-images with a FiraDisk-driver.
-
-```
-Note: during the operation of the FiraDisk Integrator script, better to turn off the antivirus!
-```
-### WinContig analys and defragmentation.
-
-Many users takes the error of “insufficiently free continuous clusters” while trying to defragment the ISO-image to work in a multiboot USB-flash or HDD. For defragmentation of ISO-images, we will use the WinContig program. WinContig is shows this error.
-
-When creating a multiboot USB-flash, ISO files are placed in a special folder. On the disk, the file is stored not in one place, but is broken by many sectors, and when trying to read such ISO, the system is has this problem. For normally ISO to work , it is necessary that it be continuous, i.e. not scattered through the sectors, but went in sequence. If this does not happen, the system cannot unload into the RAM. 
-
-Select > analyze and look - need or not the optimization of ISO-images on a USB flash drive. 
-
-If required >
-
-Launch WinContig > go to the drive list > select the drive where ISO images are stored > select the Properties > Service > check and select > optimize.
-
-### Ready to work skins in folder > make_skins > skins.
-
-To use another skin, take any skin> for example > mac.gz.
-Copy skin to USB-flash in folder GFX.
-Open in notepad "menu.lst" file.
-Change the name of the installed skin "sony.gz" to new "mac.gz" in stroke > gfxmenu /GFX/sony.gz and save them.
-Enjoy to the new design!
-
-#### Skins.
-
-<img src="preview/pre_city.png">
-
-```
-city.gz
+```mermaid
+graph LR;
+Format[Format] --> Boot[MBR/PBR]
+Boot --> Files[USB-Files]
+Files --> ISO[ISO]
+ISO --> Menu[menu.lst]
 ```   
-<img src="preview/pre_art.png">
+
+## Contents
+
+- [Quick Start](#quick-start)
+- [Features](#features)
+- [Supported Images](#supported-images)
+- [How to Make the USB Flash Drive Bootable](#how-to-make-the-usb-flash-drive-bootable)
+- [Preparing a Windows ISO Image](#preparing-a-windows-iso-image)
+- [WinContig — Analysis and Defragmentation](#wincontig-analysis-and-defragmentation)
+- [Themes](#themes)  
+
+## Features   
+
+- BIOS/UEFI
+- Windows ISO
+- Linux ISO
+- WinPE/LiveCD
+- Themes
+- Multiple ISOs on a single USB drive
+
+## Supported ISOs
+
+- Windows 10 / 11
+- Macrium Reflect
+- WinPE / LiveCD environments
+- Arch Linux
+- Kali Linux
+- CachyOS
+- Debian-based distributions
+- Most modern Linux distributions   
+
+## How to make the USB flash drive bootable   
+
+**Installing the bootloader**   
+
+> [!IMPORTANT]
+> The USB flash drive must be formatted as one partition.   
+
+#### Select a File System
+
+**FAT32/NTFS**→ Choose the file system that best suits your needs.   
+
+> [!IMPORTANT]
+> FAT32 → does not support files larger than 4 GB   
+
+#### Activate the Partition
+
+Open Bootice and select your USB drive.   
+
+#### Formatting a USB flash drive   
 
 ```
-art.gz
+File System
+├─ FAT32/NTFS
+└─ Start LBA → 2048
+```   
+
+| File system | Features |
+|---|---|
+| FAT32 | Compatible, but files up to 4 GB |
+| NTFS | Supports large ISO files |   
+
 ```
+Parts Manage
+├─ Re-Partitioning
+├─ USB-HDD mode (Single Partition)
+└─ Activate
+```   
 
-<img src="preview/pre_moda.png">
+#### Install MBR   
+
+``` 
+Bootice
+└─ Process MBR
+    └─Windows NT 5.x/6.x
+        └─ Install
+```   
+
+#### Install PBR   
 
 ```
-moda.gz
+Bootice
+└─ Process PBR
+   └─ Grub4Dos
+      └─ Install
+         └─ Version 0.4.6a
+```   
+
+#### Creating a Multiboot USB Drive   
+
+- Format the USB flash drive using → **Bootice → Parts Manage → Repartitioning**.   
+- Using BOOTICE, perform Re-Partitioning as described in the section above. → **How ​​to make the USB flash drive bootable**.   
+- Copy the contents of the folder → **USB-Files** to the USB flash drive.   
+- Integrate the driver → FiraDisk **into** the Windows ISO image.   
+- Copy the ISO image to the folder → **ISO**.   
+- Edit the file → **menu.lst** so that the ISO paths and names match.   
+- Copy the Linux distributions to the **TUX** folder   
+- Copy WinPE / LiveCD images to the **PE** folder   
+
+> [!IMPORTANT]
+> If desired, all ISOs can be stored in one directory.   
+> Folders "ISO, TUX, PE, Apps" are created solely for convenience.   
+
+#### Structure of a multiboot flash drive   
+
 ```
+Multiboot USB root/
+│
+├──GFX/
+│ ├── mac.gz
+│ └── unifont.hex.gz
+│
+├── Apps/
+│
+├── ISO/
+├── PE/
+├── TUX/
+│
+├── AutoUnattend.xml
+├── GRLDR
+├── liveusbl
+├── winpeshl.ini
+│
+└── menu.lst
+```   
 
-#### Look and download at [GitHub](https://github.com/yojeero/usb_multiboot).
+> [!IMPORTANT]
+> A multiboot flash drive created using this scheme works in both BIOS Legacy and UEFI.   
 
-#### Читать [по русски](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md).
+> [!WARNING]
+> Some ISO images may require disabling Secure Boot in the BIOS/UEFI to boot.   
+
+## Preparing a Windows ISO image   
+
+To run Windows installation from a USB flash drive, you need to integrate the **FiraDisk driver** into the ISO image.   
+For this purpose → **FiraDisk_integrator** is used.   
+
+```
+Create a working folder
+├─ Use Latin characters in the folder name
+├─ No spaces
+├─ Maximum 8 characters
+├─ Copy the Windows ISO into the folder
+├─ Place the FiraDisk_integrator script in the same folder
+└─ Run the script as administrator
+```   
+
+> [!IMPORTANT]
+> You can copy several Windows ISO, of different editions and 32-bit and 64-bit versions.   
+> The script processes all ISO images located in the same folder sequentially and, based on them, creates its own ISO images with the FiraDisk driver.   
+
+## WinContig — Analysis & Defragmentation   
+
+When working with multiboot flash drives, ISO files should not be fragmented.   
+
+> [!IMPORTANT]
+> If the ISO is fragmented, errors or problems may occur while loading the ISO into memory.   
+
+**ISO check**   
+
+```
+WinContig → Analyze
+```   
+
+> [!IMPORTANT]
+> If the program shows the need for optimization, perform defragmentation.   
+
+**Defragmentation**→ launch WinContig   
+
+```
+List of drives
+├─ Select flash drive
+├─ Properties
+├─ Service
+├─ Check
+└─ Optimize
+```   
+
+## Themes
+
+**Themes** → located in the `make_skins/skins` folder
+
+How to Install a New Theme   
+
+```
+Select the skin file → for example → mac.gz   
+├─ Copy it to the folder → GFX
+├─ Edit → menu.lst 
+├─ Find the line → gfxmenu /GFX/sony.gz
+└─ Replace → sony.gz with mac.gz
+```   
+
+### Screenshots
+
+| City | Art | Yellow | Moda |
+|------|------|------|------|
+| ![](preview/pre_city.png) | ![](preview/pre_art.png) | ![](preview/pre_yellow.png) | ![](preview/pre_moda.png) |   
+
+## GitHub
+
+Source files, configs, and themes:   
+
+[yojeero/usb_multiboot](https://github.com/yojeero/usb_multiboot) /[in Russian](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)   
+
+<p align="center">
+<img alt="License" src="https://img.shields.io/github/license/yojeero/usb_multiboot?style=for-the-badge">
+</p>
