@@ -15,7 +15,7 @@ Multiboot USB Flash Drive
 </p>   
 
 <p align="center">
-<img src="preview/pre_yellow.png"  width="600">  
+<img src="preview/pre_yellow.png"  width="500">  
 </p>   
 
 ## Быстрый старт
