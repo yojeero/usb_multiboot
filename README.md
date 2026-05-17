@@ -15,7 +15,7 @@ Universal multiboot USB flash drive with support for Windows, Linux, WinPE and U
 </p>   
 
 <p align="center">
-<img src="preview/pre_yellow.png" width="600">  
+<img src="preview/pre_yellow.png" width="500">  
 </p>   
 
 ## Quick start
