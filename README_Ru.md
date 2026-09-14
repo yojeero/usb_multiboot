@@ -4,13 +4,18 @@
 
 Multiboot USB Flash Drive   
 
-<sub>Универсальная мультизагрузочная USB-флешка с поддержкой Windows, Linux, WinPE и UEFI/Legacy BIOS.</sub>   
+<sub>С поддержкой Windows, Linux, WinPE +   
+UEFI/Legacy BIOS.</sub>   
 
-`LiveCD` . `USB` . `Multiboot` . `Skins`   
+ <br>
+
+`LiveCD` . `USB` . `Skins`   
 
 :secret:   
 
-<img src="preview/pre_yellow.png" width="100%" max-width="800px">    
+ <br>
+
+<img src="preview/pre_yellow.png" width="100%" max-width="600px">    
 
 </h1>   
 

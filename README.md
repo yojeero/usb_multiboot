@@ -4,7 +4,7 @@
 
 Multiboot USB Flash Drive   
 
-<sub>Universal support for Windows, Linux, WinPE +   
+<sub>Support for Windows, Linux, WinPE +   
  UEFI/Legacy BIOS.</sub>   
 
  <br>
@@ -15,7 +15,7 @@ Multiboot USB Flash Drive
 
  <br>
 
-<img src="preview/pre_yellow.png" width="100%" max-width="800px">    
+<img src="preview/pre_yellow.png" width="100%" max-width="600px">    
 
 </h1>   
 
