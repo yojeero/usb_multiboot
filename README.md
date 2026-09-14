@@ -9,9 +9,11 @@ Multiboot USB Flash Drive
 
  <br>
 
-`LiveCD` . `USB` . `Multiboot` . `Skins`   
+`LiveCD` . `USB` . `Skins`   
 
 :secret:   
+
+ <br>
 
 <img src="preview/pre_yellow.png" width="100%" max-width="800px">    
 
