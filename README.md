@@ -5,7 +5,10 @@
 Multiboot USB Flash Drive   
 
 <sub>Universal multiboot USB flash drive with support   
-for Windows, Linux, WinPE and UEFI/Legacy BIOS.</sub>   
+for Windows, Linux, WinPE +   
+ UEFI/Legacy BIOS.</sub>   
+
+ <br>
 
 `LiveCD` . `USB` . `Multiboot` . `Skins`   
 
