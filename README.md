@@ -1,22 +1,18 @@
 <h1 align="center">   
 
+💾   
+
 Multiboot USB Flash Drive   
 
-<sub>Creating a multiboot USB flash drive</sub>
+<sub>Universal multiboot USB flash drive with support for Windows, Linux, WinPE and UEFI/Legacy BIOS.</sub>   
+
+`LiveCD` . `USB` . `Multiboot` . `Skins`   
+
+:secret:   
+
+<img src="preview/pre_yellow.png" width="100%" max-width="800px">    
 
 </h1>   
-
-<p align="center">
-Universal multiboot USB flash drive with support for Windows, Linux, WinPE and UEFI/Legacy BIOS.
-</p>   
-
-<p align="center">
-<img alt="" src="https://img.shields.io/badge/LiveCD-1793D1?logo=LiveCD&logoColor=fff&style=for-the-badge" height="20"/><img alt="" src="https://img.shields.io/badge/USB-D70A53?style=for-the-badge&logo=usb&logoColor=white" height="20"/><img alt="" src="https://img.shields.io/badge/multiboot-%231357BD?style=for-the-badge&logo=multiboot&logoColor=white" height="20"/><img alt="" src="https://img.shields.io/badge/skins-green?style=for-the-badge&logo=skins&logoColor=white" height="20"/>
-</p>   
-
-<p align="center">
-<img src="preview/pre_yellow.png" width="500">  
-</p>   
 
 ## Quick start
 
