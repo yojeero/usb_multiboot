@@ -1,17 +1,9 @@
-<h1 align="center">   
-
-💾   
+<h1 align="center">
 
 Multiboot USB Flash Drive   
 
 <sub>С поддержкой Windows, Linux, WinPE +   
-UEFI/Legacy BIOS.</sub>   
-
- <br>
-
-`LiveCD` . `USB` . `Skins`   
-
-:secret:   
+UEFI/Legacy BIOS.</sub>  
 
  <br>
 
