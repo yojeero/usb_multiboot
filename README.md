@@ -5,11 +5,7 @@ Multiboot USB Flash Drive
 <sub>Support for Windows, Linux, WinPE +   
  UEFI/Legacy BIOS.</sub>   
 
- <br>
-
 `LiveCD` . `USB` . `Skins`   
-
- <br>
 
 <img src="preview/pre_yellow.png" width="100%" max-width="600px">    
 
