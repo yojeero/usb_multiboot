@@ -1,15 +1,9 @@
-<h1 align="center"> 
+<img src="preview/pre_yellow.png" width="100%" max-width="800px">  
 
-Multiboot USB Flash Drive   
+# Multiboot USB Flash Drive   
 
-<sub>Support for Windows, Linux, WinPE +   
- UEFI/Legacy BIOS.</sub>   
-
- <br>
-
-<img src="preview/pre_yellow.png" width="100%" max-width="600px">    
-
-</h1>   
+> ### Support for Windows, Linux, WinPE.    
+> ### Support for UEFI and Legacy BIOS (MBR).
 
 ## Quick start
 
@@ -218,9 +212,10 @@ Select the skin file → for example → mac.gz
 |------|------|------|------|
 | ![](preview/pre_city.png) | ![](preview/pre_art.png) | ![](preview/pre_yellow.png) | ![](preview/pre_moda.png) |   
 
-## GitHub
+### GitHub
 
 Source files, configs, and themes:   
 
-[yojeero/usb_multiboot](https://github.com/yojeero/usb_multiboot) / [описание на русском](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)   
+- [Multiboot USB](https://github.com/yojeero/usb_multiboot)   
+- [Multiboot USB на русском](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)   
 
