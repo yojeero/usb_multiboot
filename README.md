@@ -1,6 +1,4 @@
-<h1 align="center">   
-
-💾   
+<h1 align="center"> 
 
 Multiboot USB Flash Drive   
 
