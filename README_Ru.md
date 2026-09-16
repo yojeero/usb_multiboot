@@ -230,8 +230,4 @@ WinContig → Анализировать
 
 Исходники, конфиги и темы оформления:   
 
-[yojeero/usb_multiboot](https://github.com/yojeero/usb_multiboot) / [описание на русском](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)   
-
-<p align="center">
-<img alt="License" src="https://img.shields.io/github/license/yojeero/usb_multiboot?style=for-the-badge">
-</p>
+[yojeero/usb_multiboot](https://github.com/yojeero/usb_multiboot) / [описание на русском](https://github.com/yojeero/usb_multiboot/blob/main/README_Ru.md)
