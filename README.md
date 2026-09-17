@@ -1,11 +1,12 @@
-<img src="preview/pre_yellow.png" width="100%" max-width="800px">  
+<img src="preview/pre_yellow.png" width="100%">   
 
-# Multiboot USB Flash Drive   
+### Multiboot USB Flash   
 
-> ### Support for Windows, Linux, WinPE.    
-> ### Support for UEFI and Legacy BIOS (MBR).
+> [!TIP]
+> Support for Windows, Linux, WinPE.    
+> Support for UEFI and Legacy BIOS (MBR).   
 
-## Quick start
+### Quick start
 
 ```mermaid
 graph LR;
@@ -15,7 +16,7 @@ Files --> ISO[ISO]
 ISO --> Menu[menu.lst]
 ```   
 
-## Contents
+### Contents
 
 - [Quick Start](#quick-start)
 - [Features](#features)
@@ -25,7 +26,7 @@ ISO --> Menu[menu.lst]
 - [WinContig — Analysis and Defragmentation](#wincontig-analysis-and-defragmentation)
 - [Themes](#themes)  
 
-## Features   
+### Features   
 
 - BIOS/UEFI
 - Windows ISO
@@ -34,7 +35,7 @@ ISO --> Menu[menu.lst]
 - Themes
 - Multiple ISOs on a single USB drive
 
-## Supported ISOs
+### Supported ISOs
 
 - Windows 10 / 11
 - Macrium Reflect
@@ -42,10 +43,9 @@ ISO --> Menu[menu.lst]
 - Arch Linux
 - Kali Linux
 - CachyOS
-- Debian-based distributions
 - Most modern Linux distributions   
 
-## How to make the USB flash drive bootable   
+### How to make the USB flash drive bootable   
 
 **Installing the bootloader**   
 
@@ -165,7 +165,7 @@ Create a working folder
 > You can copy several Windows ISO, of different editions and 32-bit and 64-bit versions.   
 > The script processes all ISO images located in the same folder sequentially and, based on them, creates its own ISO images with the FiraDisk driver.   
 
-## WinContig — Analysis & Defragmentation   
+### WinContig — Analysis & Defragmentation   
 
 When working with multiboot flash drives, ISO files should not be fragmented.   
 
@@ -192,7 +192,7 @@ List of drives
 └─ Optimize
 ```   
 
-## Themes
+### Themes
 
 **Themes** → located in the `make_skins/skins` folder
 

@@ -1,11 +1,12 @@
-<img src="preview/pre_yellow.png" width="100%" max-width="800px">  
+<img src="preview/pre_yellow.png" width="100%">  
 
-# Multiboot USB Flash Drive   
+### Multiboot USB Flash   
 
-> ### Support for Windows, Linux, WinPE.    
-> ### Support for UEFI and Legacy BIOS (MBR). 
+> [!TIP]
+> Support for Windows, Linux, WinPE.    
+> Support for UEFI and Legacy BIOS (MBR).   
 
-## Быстрый старт
+### Быстрый старт
 
 ```mermaid
 graph LR;
@@ -15,7 +16,7 @@ Files --> ISO[ISO]
 ISO --> Menu[menu.lst]
 ```   
 
-## Содержание
+### Содержание
 
 - [Быстрый старт](#быстрый-старт)
 - [Возможности](#возможности)
@@ -25,7 +26,7 @@ ISO --> Menu[menu.lst]
 - [WinContig — анализ и дефрагментация](#wincontig--анализ-и-дефрагментация)
 - [Темы](#темы)   
 
-## Возможности   
+### Возможности   
 
 - BIOS / UEFI
 - Windows ISO
@@ -34,7 +35,7 @@ ISO --> Menu[menu.lst]
 - Темы оформления
 - Несколько ISO на одной флешке
 
-## Поддерживаемые образы   
+### Поддерживаемые образы   
 
 - Windows 10 / 11
 - Macrium Reflect
@@ -45,7 +46,7 @@ ISO --> Menu[menu.lst]
 - Debian-based distributions
 - Most modern Linux distributions   
 
-## Как сделать флешку загрузочной   
+### Как сделать флешку загрузочной   
 
 **Установка загрузчика**   
 
@@ -146,7 +147,7 @@ Multiboot USB root/
 > [!WARNING]
 > Для загрузки некоторых ISO-образов может потребоваться отключение Secure Boot в BIOS/UEFI.   
 
-## Подготовка ISO-образа Windows   
+### Подготовка ISO-образа Windows   
 
 Для запуска установки Windows с флешки необходимо интегрировать **драйвер FiraDisk** в ISO-образ.   
 Для этого используется → **FiraDisk_integrator**.   
@@ -165,7 +166,7 @@ Multiboot USB root/
 > Можно скопировать несколько образов Windows, разных редакций и разрядности.   
 > Скрипт по очереди обрабатывает все ISO-образы, что лежат рядом с ним и на их основе создает свои ISO-образы с FiraDisk-драйвером.   
 
-## WinContig — анализ и дефрагментация   
+### WinContig — анализ и дефрагментация   
 
 При работе с мультизагрузочными флешками ISO-файлы не должны быть фрагментированы.   
 
@@ -192,7 +193,7 @@ WinContig → Анализировать
 └─ Оптимизировать
 ```   
 
-## Темы
+### Темы
 
 **Скины оформления** → в папке make_skins/skins   
 
