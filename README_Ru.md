@@ -1,6 +1,6 @@
 <img src="preview/pre_yellow.png" width="100%">  
 
-### Multiboot USB Flash   
+<img src="https://img.shields.io/badge/Multiboot_USB-7678ed?style=for-the-badge" width="40%" alt="Multiboot_USB">   
 
 > [!TIP]
 > Support for Windows, Linux, WinPE.    
